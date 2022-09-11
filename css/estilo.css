@@ -1,0 +1,59 @@
+:root{
+    --padding-container: 100px 0; 
+    --color-title: #001AA9; 
+
+} 
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.nav__title{
+    font-weight: 300;
+    color: aliceblue;
+}
+
+.nav__link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em; 
+    
+
+} 
+
+.nav__items{
+    list-style: none;
+}
+
+.nav___links{ 
+    color: white;
+    text-decoration: none;
+
+
+
+}
+
+.nav__menu{
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+.nav__close {
+    display: var(--show, none);
+}

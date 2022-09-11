@@ -1,0 +1,6 @@
+Nombre: Felipe San Martín 
+Profesor: René Cabrera 
+Ramo: Seguridad de Software
+Sección 6 
+
+Agregados experimentales realizados, dentro de el archivo que contiene las funciones en JS se cambió el formato de etiqueta <div> por <table>, esperando que las visuales sean más cómodas y ordenadas para la vista. Este código se irá mejorando con el tiempo, ya que se pretende utiliar el formato del mismo para usarlo en la página del proyecto1 que trata de imagenes realizadas por una IA, y subir el nombre, la imagen y descripción de las obras que generen los usuarios. 
